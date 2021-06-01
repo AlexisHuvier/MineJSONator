@@ -1,2 +1,6 @@
+from files.minejsonator import MineJSONator
+
+
 if __name__ == '__main__':
-    print("MineJSONator")
+    modid = input("Enter MODID : ")
+    MineJSONator(modid).run()
